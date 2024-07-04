@@ -1,6 +1,11 @@
-all:
-	gcc test.c
+all: test
 
-check:
-	./test
+test: test.c
+    gcc -o test test.c
+
+run: test
+    ./test
+
+clean:
+    rm -f test
 
