@@ -1,6 +1,6 @@
 all:
-	gcc -o test test.c
+	gcc test.c
 
 test:
-	./test
+	./a.out
 
