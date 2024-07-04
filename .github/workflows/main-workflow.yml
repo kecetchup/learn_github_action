@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: kecetchup/learn_github_action/.github/workflows/reusable-workflow.yml@main
+    uses: kecetchup/learn_github_action/.github/workflows/reuseable-workflow.yml@main
     with:
       string1: 'Hello, '
       string2: 'World'
